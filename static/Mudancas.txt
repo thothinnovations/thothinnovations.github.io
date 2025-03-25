@@ -1,0 +1,11 @@
+      <!-- Indicador de idioma -->
+<!--        <small class="p-0 mx-0 mt-2 fw-light text-white-50 fst-italic text-end">-->
+<!--        <span class="lang-en" style="display: none;">-->
+<!--          Available in: <img src="static/us.svg" alt="English" style="max-height: 10px" class="d-inline-block img-fluid ms-1"/>-->
+<!--        </span>-->
+<!--          <span class="lang-pt">-->
+<!--          Disponível em: <img src="static/br.svg" alt="Português" style="max-height: 10px" class="d-inline-block img-fluid ms-1"/>-->
+<!--        </span>-->
+<!--        </small>-->
+
+

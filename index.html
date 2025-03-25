@@ -24,21 +24,21 @@
       <a class="navbar-brand" href="/">
         <img src="static/full-logo.png" alt="Thoth Inovacoes LTDA" style="max-height: 40px" class="d-inline-block img-fluid">
       </a>
+      <div class="dropdown ms-auto">
+        <button class="btn btn-bs-primary-bg-subtle dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+          <i class="fa-solid fa-language text-light"></i>
+          <span id="languageLabel" class="text-light"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+          <li><a class="dropdown-item" href="#" data-lang="portugues">Portugues</a></li>
+          <li><a class="dropdown-item" href="#" data-lang="english">English</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
 </header>
 
-<!-- Dropdown para troca de idioma (fixo no canto inferior direito) -->
-<div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3">
-  <button class="btn btn-primary dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-    <i class="fa-solid fa-language"></i>
-    <span id="languageLabel"></span>
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="languageDropdown">
-    <li><a class="dropdown-item" href="#" data-lang="portugues">Portugues</a></li>
-    <li><a class="dropdown-item" href="#" data-lang="english">English</a></li>
-  </ul>
-</div>
+
 
 <!--START MAIN CONTENT-->
 <main class="container" style="color: #e6ceb5 !important; border-color: rgba(230, 206, 181, 0.5) !important;">
@@ -86,15 +86,6 @@
       <div class="card bg-transparent px-5 px-md-5 py-4 border-white border-opacity-25 border-2 text-white-50"
            style="color: #e6ceb5 !important; border-color: rgba(230, 206, 181, 0.5) !important;">
 
-        <!-- Indicador de idioma -->
-        <small class="p-0 mx-0 mt-2 fw-light text-white-50 fst-italic text-end">
-        <span class="lang-en" style="display: none;">
-          Available in: <img src="static/us.svg" alt="English" style="max-height: 10px" class="d-inline-block img-fluid ms-1"/>
-        </span>
-          <span class="lang-pt">
-          Disponível em: <img src="static/br.svg" alt="Português" style="max-height: 10px" class="d-inline-block img-fluid ms-1"/>
-        </span>
-        </small>
 
         <div class="mt-4 mx-auto">
           <h2 class="fw-medium">
